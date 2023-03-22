@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Antic+Didone&family=Nanum+Myeongjo&family=Poiret+One&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(rest1.jpg);
+  background-size: cover;
+  font-family: "Antic Didone", serif;
+}
+.nav-bar {
+  margin-left: 900px;
+  margin-top: -25px;
+}
+.nav-bar,
+li,
+ul,
+a {
+  align-content: center;
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  /* padding-left: -15px; */
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 65px;
+}
+.about:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.home:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.contact:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.text {
+  color: #fff;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+.hero,
+.text,
+h1 {
+  font-size: 50px;
+}
+.text-para {
+  font-size: 20px;
+}
+.menu-line {
+  font-size: 25px;
+}
+.menu-button {
+  padding: 5px 10px 5px 20px;
+  background-color: rgb(227, 194, 32);
+  font-size: 20px;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  align-content: center;
+  transform: translate(80px, 0, 40px, 70px);
+}
+.menu-button:hover {
+  background-color: rgb(184, 159, 34);
+  cursor: pointer;
+}
